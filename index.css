@@ -2,21 +2,43 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 
 input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #e2369a;
+    border: 1px solid #e048bf;
     margin-bottom: 4px;
 }
 
 button {
-    background: #e2369a;
+    background: #e048bf;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #e048bf;
     border-radius: 3px;
     font-weight: bold;
 }
+
+#delete-btn {
+    background: white;
+    color: #e048bf;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #e048bf;
+}
+
+
